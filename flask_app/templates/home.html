@@ -39,8 +39,8 @@
     </head>
     <nav style="--bs-breadcrumb-divider: '';" aria-label="breadcrumb">
       <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="/graph"> -[- Graph -]- </li>
-        <li class="breadcrumb-item"><a href="/coinlist"> -[- Coinlist -]- </li>
+        <li class="breadcrumb-item"><a href="/graph"> -[- Graph -]-</a> </li>
+        <li class="breadcrumb-item"><a href="/coinlist"> -[- Coinlist -]- </a></li>
       </ol>
     </nav>
 
@@ -54,11 +54,10 @@
       <form method="POST", action="{{url_for('predict')}}">
       <b>
         코인 이름 : <input type='text', name='coinname', placeholder='ex)KRW-BTC'>
-  </select>
         <br><br>
-        시간(초,분,시) : <input type='text', name='interval_time', placeholder='ex)second15, minute30, 60...']>
+        시간(초,분,시) : <input type='text', name='interval_time', placeholder='ex)second15, minute30, 60...'>
         <br><br>
-        예측 범위(시간) : <input type='number', name='periods_time', placeholder='ex)6, 12, 24...']>
+        예측 범위(시간) : <input type='number', name='periods_time', placeholder='ex)6, 12, 24...'>
         <br><br>
 
 
@@ -79,7 +78,7 @@
       <a class="btn btn-info" href="https://ftx.com/" >FTX</a>  
     </center>
 
-   
+   </body>
     <center>
     <div id="footer">※코인과 가격은 모두 upbit 기준입니다.※</div>
     </div>
